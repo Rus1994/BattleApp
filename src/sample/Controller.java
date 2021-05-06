@@ -19,7 +19,7 @@ public class Controller implements Observer{
 
     @Override
     public void showMessage(String msg) {
-        output_textArea.appendText(msg + "\n");
+        output_textArea.appendText(msg  + "\n");
     }
 
     @FXML
